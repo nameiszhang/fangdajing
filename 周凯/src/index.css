@@ -1,0 +1,56 @@
+*{padding: 0;margin: 0;list-style: none;box-sizing: border-box;}
+.App{
+  width: 1200px;
+  display: flex;
+}
+.left{
+  width: 500px;
+  padding-left: 12px;
+}
+.top{
+  /* width: 250px;
+  height: 350px; */
+  position: relative;
+}
+.mark{
+  /* width: 100px;
+  height: 100px; */
+  position: absolute;
+  /* left: 0;
+  bottom: 0; */
+  background: rgba(255,255,255,0.5)
+}
+.top img{
+  width: 250px;
+  height: 350px;
+}
+.left ol{
+  width: 100%;
+  display: flex;
+}
+.left ol li{
+  width: 90px;
+  height: 80px;
+  padding:5px;
+}
+.left ol li:hover{
+  border: 1px solid red;
+}
+.left ol li img{
+  width: 83px;
+  height: 70px;
+}
+.right{
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  margin-left: -100px;
+}
+.right img{
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
