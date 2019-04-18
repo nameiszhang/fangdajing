@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  background: #f6f6f6;
+}
+.top{
+  width: 1000px;
+  background: #fff;
+  border-bottom: 5px solid #eae5e5;
+}
+.bottomEr{
+  border-bottom: 1px solid #0893ff;
+  color: #666;
+}
+.flexaa>div>span{
+  width: 20%;
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.flexaa>div>span:before{
+  content: "";
+  width: 1px;
+  height: 10px;
+  background: #ccc;
+}
+#root{
+  width: 1000px;
+  height: auto;
+  margin: 50px auto;
+}
+.centerSa{
+  width: 100%;
+  display: flex;
+}
+.centerSa>dl{
+  width: 20%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.centerSa>dl img{
+  width: 100%;
+  height: auto;
+}
+.centerSa>dl p{
+  line-height: 30px;
+}
+.center{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}
+.lunsort{
+  display: flex;
+  width: 100%;
+}
+.lunsort>dl{
+  width: 20%;
+  height: 250px;
+  /* box-sizing: border-box; */
+  /* border-left: 1px solid #ccc; */
+  box-shadow: -10px 0px 39px rgba(0,0,0,0.1);
+}
+.lunsort>dl>dt{
+  width: 100%;
+}
+.lunsort>dl:first-child{
+  border-left: none;
+}
+.lunsort>dl img{
+  width: 100%;
+  height: auto;
+}
+.active{
+  width: 40% !important;
+  color: #fff;
+  display: flex;
+  background: #0893ff;
+  transition: all 1s ease-out;
+  background: url(//misc.360buyimg.com/channel/shouji/5.0.0/css/i/bg.png) 
+}
+
+.active img{
+  width: 230px !important;
+  height: 230px !important;
+  transition: all 1s ease-out;
+}
